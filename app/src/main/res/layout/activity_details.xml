@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff303030">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="8dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/wallpaper_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp"
+        android:layout_gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"/>
+
+
+            <ImageView
+                android:id="@+id/wallpaper_error"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="54dp"
+                android:scaleType="fitCenter"/>
+
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/wallpaper_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingBottom="8dp"
+            android:text="Name"
+            android:textColor="#87FFFFFF"
+            android:textSize="14sp"
+            android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_detail"
+            android:indeterminate="false"
+            android:progress="50"
+            android:max="100"
+            style="?android:attr/indeterminateProgressStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

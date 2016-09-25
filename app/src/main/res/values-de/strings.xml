@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paperz</string>
+    <string name="added_to_favorites">Der Wallpaper wurde zu den Favoriten hinzugefügt</string>
+    <string name="connection_error_message">Es trat ein Problem mit Ihrer Verbindung auf, bitte versuchen Sie es später erneut</string>
+    <string name="download">Herunterladen</string>
+    <string name="error_grant_perissions">Bitte erteilen Sie der App Schreib-Rechte</string>
+    <string name="exit">Beenden</string>
+    <string name="favorite_wallpaper">Favoriten</string>
+    <string name="image_credits">Bild von %s</string>
+    <string name="license">Lizenz Überprüfung</string>
+    <string name="license_unsuccessful">Die Lizenzüberprüfung schlug fehl. Bitte laden Sie die App im Play Store!</string>
+    <string name="mobile_data">Mobile Daten</string>
+    <string name="mobile_data_warning">Sie benutzen momentan eine mobile Datenverbindung. Bitte denken Sie daran, dass die App große Datein herunterladen muss</string>
+    <string name="no_connection">Keine Verbindung</string>
+    <string name="preparing">Wallpaper vorbereiten…</string>
+    <string name="removed_from_favorites">Der Wallpaper wurde von den Favoriten entfernt</string>
+    <string name="save">Speichern</string>
+    <string name="saving">Speichere Wallpaper…</string>
+    <string name="sd_not_available">Keine SD Karte verfügbar</string>
+    <string name="set_wallpaper">Setze Wallpaper</string>
+    <string name="set_wallpaper_dialog">Aktion abschließen mit</string>
+    <string name="wallpaper_existing">Wallpaper existiert bereits in </string>
+    <string name="wallpaper_saved">Wallpaper wurde gespeichert in </string>
+    <string name="wallpaper_saving_failure">Beim Speichern des Wallpapers ist ein Fehler aufgetreten</string>
+
+
+    <string-array name="creative_commons">
+        <item>Alle Bilder dieser App sind lizenziert unter CC durch 2.0</item>
+        <item>Bilder von:</item>
+        <item>Unsplash Photographs: https://unsplash.com</item>
+        <item>Zan Cerne: http://zheano.blogspot.de</item>
+        <item>Rutwik Patel: https://plus.google.com/113404017801190562415</item>
+    </string-array>
+
+    <string-array name="drawer_items">
+
+        <item>Alle</item>
+        <item>Neue</item>
+        <item>Favoriten</item>
+
+        <item></item>
+
+        <item>Material</item>
+        <item>Landschaften</item>
+        <item>Natur</item>
+        <item>See</item>
+        <item>Städte</item>
+        <item>Vintage</item>
+
+    </string-array>
+    <string name="menu_google_group">Google+ Gruppe</string>
+</resources>

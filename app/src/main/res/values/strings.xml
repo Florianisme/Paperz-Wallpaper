@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Paperz</string>
+    <string name="save">Save on Disk</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="set_wallpaper_dialog">Complete action using</string>
+    <string name="saving">Saving Wallpaper…</string>
+    <string name="license">License Verification</string>
+    <string name="download">Download</string>
+    <string name="license_unsuccessful">The License Verification was not successful! Please consider downloading this app from the Play Store!</string>
+    <string name="exit">Exit</string>
+    <string name="no_connection">No connection</string>
+    <string name="okay" translatable="false">Okay</string>
+    <string name="connection_error_message">There was a problem with your connection. Please try again later.</string>
+    <string name="mobile_data_warning">You are currently using a mobile data connection. Please note that this app needs to download big files to be used</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="favorite_wallpaper">Favorite</string>
+    <string name="added_to_favorites">Wallpaper has been added to the favorites</string>
+    <string name="removed_from_favorites">Wallpaper has been removed from the favorites</string>
+    <string name="error_grant_perissions">Please grant write permissions and try again!</string>
+    <string name="wallpaper_saved">Wallpaper has been saved at </string>
+    <string name="wallpaper_existing">Wallpaper is already existing at </string>
+    <string name="sd_not_available">No SD card available</string>
+    <string name="preparing">Preparing Wallpaper…</string>
+    <string name="wallpaper_saving_failure">There was a problem while saving your wallpaper</string>
+    <string name="image_credits">Image by %s</string>
+    <string name="menu_cc" translatable="false">Creative Commons</string>
+    <string name="menu_google_group">Google+ Group</string>
+
+    <string-array name="creative_commons">
+        <item>All images in this app are licenced under CC by 2.0</item>
+        <item>Images by:</item>
+        <item>Unsplash Photographs: https://unsplash.com</item>
+        <item>Zan Cerne: http://zheano.blogspot.de</item>
+        <item>Rutwik Patel: https://plus.google.com/113404017801190562415</item>
+    </string-array>
+
+    <string-array name="drawer_items">
+
+        <item>All</item>
+        <item>New</item>
+        <item>Favorites</item>
+
+        <item></item>
+
+        <item>Material</item>
+        <item>Landscapes</item>
+        <item>Nature</item>
+        <item>Sea</item>
+        <item>Cities</item>
+        <item>Vintage</item>
+
+    </string-array>
+</resources>

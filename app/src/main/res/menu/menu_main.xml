@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_google_plus"
+        android:title="@string/menu_google_group"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_libraries"
+        android:title="@string/menu_cc"
+        app:showAsAction="never"/>
+
+</menu>

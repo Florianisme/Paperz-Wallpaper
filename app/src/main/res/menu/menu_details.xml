@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_set"
+        android:title="@string/set_wallpaper"
+        android:icon="@drawable/ic_action_set"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_action_save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/favorite_wallpaper"
+        android:icon="@drawable/ic_action_favorite"
+        app:showAsAction="ifRoom" />
+</menu>
